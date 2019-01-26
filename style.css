@@ -20,7 +20,9 @@ body {
 .container {
     margin-top: 20px;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    margin-left: 10px;
 }
     .card {
         display: inline-block;

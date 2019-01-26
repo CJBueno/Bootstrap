@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+.mainbackground {
+    width: 100%;
+}
+#title {
+    color: white;
+    text-align: center;
+    padding-top: 18%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5em;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+}
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+    .card {
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 5px;
+        text-align: center;
+        background-color: rgb(37, 37, 37);
+        color: white;
+        margin-bottom: 10px;
+    }
+    .btn {
+        background-color: darkslategray;
+        border: none;
+    }
+
+@media (max-width: 576px) { 
+    .container {
+        display: block;
+    }
+    .card {
+        margin-left: 20px;
+    }
+}
+.jumbotron {
+    background-image: linear-gradient( grey, grey, darkslategray);
+    color: white;
+}
